@@ -1,0 +1,247 @@
+body{
+	margin: 10px;
+	background-color: #d69191;
+}
+
+.header{	
+	background-color: #b30802;
+	border: 1px solid #323232;
+}
+
+.menu{
+	margin: 0 0 30px 0;
+	list-style: none;
+	border: 1px solid black;
+	background-color: white;
+	
+}
+
+.menu li{
+	display: inline-block;
+	padding: 8px 15px;
+}
+
+.active{
+	border: 6px solid #b30802;
+}
+
+.ms{
+	color: black;
+	font-size: 17px
+}
+
+.image1{
+	margin-right: 40px;
+	margin-left: 30px;
+}
+
+.slogan{
+	margin-left: 50px;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.button{
+	margin-left: 50px;
+	margin-top: 30px;
+	height: 40px;
+	background-color: black;
+}
+
+.bron{
+	color: white;
+}
+
+h2{
+	margin-bottom: 15px;
+	color: #b30802;
+}
+
+.adv{
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.adv li{
+	margin-bottom: 15px;
+}
+
+h3{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	color: #b30802;
+}
+
+table{
+	color: white;
+}
+
+.img5{
+	border: 5px ridge white;
+	margin: 7px;
+}
+
+.button5{
+	color: white;
+	background-color: black;
+}
+
+h5{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.start{
+	color: black;
+	margin-right: 30px;
+}
+
+.event{
+	margin-left: 50px;
+	margin-top: 30px;
+	font-size: 20px;
+}	
+
+.films img{
+	margin: 15px;
+}
+
+#service{
+	margin-top: 150px;
+}
+
+.card{
+	width: 40%;
+	margin-left: 30px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+
+.room{
+	float: right;
+	height: 50px;
+	width: 200px;
+}
+
+.image2{
+	margin: 0;
+	height: 350px;
+	width: 100%;
+}
+
+.price{
+	font-size: 20px;
+}
+
+.card2{
+	width: 25%;
+	margin-left: 30px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.image3{
+	margin: 0;
+	height: 200px;
+	width: 100%;
+}
+
+.pl{
+	width: 35%
+}
+
+#restaurant {
+	margin-top: 100px;
+}
+
+ 
+.special{
+    height: 100%;
+    margin: 0;
+}
+				
+.conteiner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.menu2{
+	display: flex;
+	margin-top: 30px;
+	flex-wrap: nowrap;
+	align-items: baseline;
+}
+
+.bmenu{
+	margin-top: 0;
+}
+
+#amenu{
+	margin-left: 80px;
+}
+
+#imgmenu{
+	margin-left: 15px;
+}
+
+.tabs{
+	list-style: none;	
+}
+
+.tabs li{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.icons{
+	margin-top: 50px;
+}
+
+.mess{
+	border: 8px inset #8c8283;
+	font-size: 20px;
+	margin: 10px;
+	margin-top: 30px;
+	padding: 15px;
+}
+
+.h{
+	color: #7b0002;
+	font-size: 25px;	
+}
+
+.more:hover{
+	border: 5px dashed #7b0002;
+	height: 400px;
+}
+
+#imgmenu:hover{
+	border: 5px dashed #7b0002;
+	height: 100px;
+	width: 150px;
+}
+
+.bron1{
+	color: white;
+}
+
+.bron1:hover{
+	font-size: 20px;
+	color: #f0696b;
+}
+
+.bron:hover{
+	color: #f0696b;
+}
+
+.ms:hover{
+	color: #b30802;
+	font-weight: bold;
+}
+
+.ssl:{
+	color: black;
+}
