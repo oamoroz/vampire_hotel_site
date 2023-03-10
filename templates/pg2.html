@@ -1,0 +1,176 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Vampire's hotel</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+	rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+	crossorigin="anonymous">
+	<link href="{% static 'css/pg1.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="header"> 
+<a id="head1"><img src="{% static 'images/logoza.ru.png' %}" alt="logo" height=150></a> </div>
+
+<ul class="menu">
+	<li><a class="ms" href="../" target="_self">Главная</a></li>
+	<li><a class="ms active" href="./apartments" target="_self">Номера</a></li>
+	<li><a class="ms" href="../services" target="_self">Мероприятия и услуги</a></li>
+	<li><a class="ms" href="../gallery" target="_self">Фотогалерея</a></li>
+	<li><a class="ms" href="../reviews" target="_self">Отзывы</a></li>
+	<li><a class="ms" href="../contacts" target="_self"><img src="{% static 'images/icons8-contacts.png' %}"
+	alt="contacts" height=25></a></li>
+</ul>
+
+<ul class="tabs">
+	<li><a class="ms" href="#tab7" target="_self" title="Закладка">Номера</a></li>
+	<li><a class="ms" href="#form1" target="_self" title="Закладка">Забронировать номер</a></li>
+</ul>
+
+<div class="event"><a id="tab7"><h3>Номера</h3></a></div>
+<main>
+<div class="card plus">
+  <img class="image2" src="https://www.randevu-hotel.ru/uploads/rooms/1601887781.jpg" class="image2" alt="room">
+  <div class="card-body">
+    <h4 class="card-title">Стандарт</h4>
+    <p class="card-text">Забронируйте стандартный номер с двумя односпальными кроватями 
+	или одной просторной кроватью, оформленный в черно-красных тонах минималистичного
+	стиля, чтобы отлично провести ночь в европейской столице России.</p>
+    <p>
+	<b class="price">7300 руб./сутки</b> 
+	<button class="button5 room" type="button" value="Забронировать номер"><a class="bron" 
+	href="./#form1" target="_self">Забронировать номер</a></button></p>
+	
+  </div>
+</div>
+
+<div class="card plus">
+  <img class="image2" src="https://gaycities-listing-images-production.imgix.net/originals/bars-305496--a941f.jpg?w=931&h=630" class="image2" alt="room">
+  <div class="card-body">
+    <h4 class="card-title">Стандарт премиум</h4>
+    <p class="card-text">Если вам необходим дополнительный простор, забронируйте номер Стандарт
+	премиум. Комфортный номер с двумя односпальными кроватями или одной двуспальной кроватью идеально
+	подходит для отдыха.</p>
+    <p>
+	<b class="price">9200 руб./сутки</b> 
+	<button class="button5 room" type="button" value="Забронировать номер"><a class="bron" 
+	href="./#form1" target="_self">Забронировать номер</a></button></p>
+	
+  </div>
+</div>
+
+<div class="card">
+  <img class="image2" src="https://www.6profis.de/images/member/bilder_530362_b3.jpg" class="image2" alt="room">
+  <div class="card-body">
+    <h4 class="card-title"><a id="delux">Делюкс комфорт</a></h4>
+    <p class="card-text">Просторный  двухкомнатный номер по достоинству оценят гости, 
+	путешествующие с семьей. Кровавые цвета и мягкие ковры на полу порадуют вас и ваших
+	детей.</p>
+    <p>
+	<b class="price">11400 руб./сутки</b> 
+	<button class="button5 room" type="button" value="Забронировать номер"><a class="bron" 
+	href="./#form1" target="_self">Забронировать номер</a></button></p>
+	
+  </div>
+</div>
+
+<div class="card">
+  <img class="image2" src="https://www.jenniferssexblog.nl/wp-content/uploads/2016/11/4e172aae48c0fa3562f1584e8ee65fe7-3800x2674_c.jpg" class="image2" alt="room">
+  <div class="card-body">
+    <h4 class="card-title">Люкс студия</h4>
+    <p class="card-text">Просторные однокомнатные  апартаменты с двумя балконами с шикарным видом на Невский проспект, 
+	и дизайнерскими люстрами в стиле 15 века сделают ваш отдых еще приятнее.</p>
+    <p>
+	<b class="price">14200 руб./сутки</b> 
+	<button class="button5 room" type="button" value="Забронировать номер"><a class="bron" 
+	href="./#form1" target="_self">Забронировать номер</a></button></p>
+	
+  </div>
+</div>
+
+<div class="card">
+  <img class="image2" src="https://na-dache.pro/uploads/posts/2021-05/1620713832_67-p-komnata-v-osobnyake-foto-68.jpg" class="image2" alt="room">
+  <div class="card-body">
+    <h4 class="card-title">Люкс премиум</h4>
+    <p class="card-text">К Вашим услугам чудесный двухкомнатный номер с гостевой зоной и
+	расслабляющей ванной комнатой. Тяжелые шторы, камин и шкура на полу гостиной обеспечат
+	уютный вечер. Лучший выбор для семейного отдыха.</p>
+    <p>
+	<b class="price">16300 руб./сутки</b> 
+	<button class="button5 room" type="button" value="Забронировать номер"><a class="bron" 
+	href="./#form1" target="_self">Забронировать номер</a></button></p>
+	
+  </div>
+</div>
+
+<div class="card">
+  <img class="image2" src="https://beldrevmebel.ru/images/goticheskiy-stil--454-.jpeg" class="image2" alt="room">
+  <div class="card-body">
+    <h4 class="card-title"><a id="romantic">Люкс романтик</a></h4>
+    <p class="card-text">Подарите своим любимым незабываемый романтичный уикенд, забронировав Люкс Романтик. 
+	Еще больше свечей, украшения в виде роз и парные элементы декора создают уникальную атмосферу только для двоих.</p>
+    <p>
+	<b class="price">16900 руб./сутки</b> 
+	<button class="button5 room" type="button" value="Забронировать номер"><a class="bron" 
+	href="./#form1" target="_self">Забронировать номер</a></button></p>
+	
+  </div>
+</div>
+
+<div class="card">
+  <img class="image2" src="https://mykaleidoscope.ru/uploads/posts/2020-03/1584194247_38-p-mrachnii-dizain-gostinikh-67.jpg" class="image2" alt="room">
+  <div class="card-body">
+    <h4 class="card-title">Бизнес люкс</h4>
+    <p class="card-text">Совершенно новый элегантный люкс с дизайнерским интерьером для 
+	истинных ценителей комфорта и стиля. В номере спальня с кроватью большого размера, 
+	просторная ванная комната с джакузи и много интересных деталей, обеспечивающих неземной
+	комфорт.</p>
+    <p>
+	<b class="price">19300 руб./сутки</b> 
+	<button class="button5 room" type="button" value="Забронировать номер"><a class="bron" 
+	href="./#form1" target="_self">Забронировать номер</a></button></p>
+	
+  </div>
+</div>
+
+<div class="card">
+  <img class="image2" src="https://s9.uploads.ru/pBxAV.jpg" class="image2" alt="room">
+  <div class="card-body">
+    <h4 class="card-title">Апартаменты</h4>
+    <p class="card-text">Роскошные апартаменты с эксклюзивным интерьером, достойные самого графа
+	Дракулы. Их изюминкой являются огромные панорамные окна с видом на достопримечательности
+	Невского проспекта. Идеальный вариант для тех, кто хочет отдохнуть по-королевски.</p>
+    <p>
+	<b class="price">32600 руб./сутки</b> 
+	<button class="button5 room" type="button" value="Забронировать номер"><a class="bron" 
+	href="./#form1" target="_self">Забронировать номер</a></button></p>
+	
+  </div>
+</div>
+</main>
+
+<h5><a id="form1">Форма для бронирования</a></h5>
+<form action="." method="POST">{% csrf_token %}
+	{{form.as_p}}
+	<input class="button5" type="submit" value="Забронировать">
+</form>
+
+<p align="right"><a class="start" href="#head1" target="_self">К началу страницы</a></p>
+
+<hr color="black" noshade size="5">
+
+<footer>
+<p> Vampire's hotel </p>
+<p> Невский проспект, n<br> +7 (***)-***-**-**</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

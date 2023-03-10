@@ -1,0 +1,199 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Vampire's hotel</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+	rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+	crossorigin="anonymous">
+	<link href="{% static 'css/pg1.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="header"> 
+<a id="head1"><img src="{% static 'images/logoza.ru.png' %}" alt="logo" height=150></a> </div>
+
+<ul class="menu">
+		<li><a class="ms" href="../" target="_self">Главная</a></li>
+	<li><a class="ms" href="../apartments" target="_self">Номера</a></li>
+	<li><a class="ms active" href="../services" target="_self">Мероприятия и услуги</a></li>
+	<li><a class="ms" href="../gallery" target="_self">Фотогалерея</a></li>
+	<li><a class="ms" href="../reviews" target="_self">Отзывы</a></li>
+	<li><a class="ms" href="../contacts" target="_self"><img src="{% static 'images/icons8-contacts.png' %}"
+	alt="contacts" height=25></a></li>
+</ul>
+
+<ul class="tabs">
+	<li><a class="ms" href="#tab1" target="_self" title="Закладка">Мероприятия</a></li>
+	<li><a class="ms" href="#tab2" target="_self" title="Закладка">Услуги</a></li>
+	<li><a class="ms" href="#tab3" target="_self" title="Закладка">Ресторан</a></li>
+	<li><a class="ms" href="#tab4" target="_self" title="Закладка">Библиотека</a></li>
+</ul>
+
+<div class="event">
+<a id="tab1"><h2>Мероприятия</h2></a> 
+<p><img class="image1" src="http://victoriaball.com/wp-content/gallery/2014_fp/Victoria-Ball-2014-2985-WEB.jpg"
+	alt="ball" title="Бал-маскарад" height=300 align="right">
+	<h3><a id="ball"><i>БАЛ-МАСКАРАД</i></a></h3>
+	Каждое последнее воскресенье месяца мы устраиваем для наших гостей бал в стиле
+	средневековой Европы. Неспешная музыка, в том числе из известных хорроров; старинные
+	танцы; официанты, разносящие бокалы с шампанским; светские разговоры - мы сделаем все,
+	чтобы вы почувствовали себя львом или львицей на балу у самого графа Дракулы! Дресскод: 
+	костюм нечисти и обязательно маска. Мероприятие проходит в зале ресторана.</p>
+</div>
+
+<div class="event"> 
+<p><img class="image1" src="https://i.pinimg.com/originals/59/f1/19/59f119735b8d947ccbe2d8c17212990f.jpg"
+	alt="vampire" title="Вампирша" height=300 align="left">
+	<h3><i>ПОЗНАВАТЕЛЬНЫЕ БЕСЕДЫ</i></h3>
+	Каждую неделю по вторникам и четвергам в 19:00 у нас в малом холле проходит что-то
+	вроде собраний клуба любителей вампиров и прочей нечисти. Наши специальные сотрудники-спикеры
+	предлагают тему и проводят по ней "лекцию", рассказывая интересные и малоизвестные факты.
+	Дальше вы можете обсудить это, задать вопросы или дополнить что-то к речи спикера. Темы
+	могут самые разные, например биографии разных видов нечисти от призраков до гулей, 
+	обсуждение известных фильмов и книг и другое. Вы также можете предложить свою тему, сообщив
+	ее портье за несколько дней до собрания. Эти встречи - отличный способ узнать что-то
+	новое, поделиться своим мнением и найти единомышленников.</p>
+</div>
+
+<div class="event"> 
+
+<p><h3><i>КИНОТЕАТР</i></h3>
+	Каждую неделю по пятницам и субботам в 19:00 у нас в малом холле проходит просмотр фильмов
+	про Дракулу и вампиров вообще. Вы можете прийти и пересмотреть старый фильм или 
+	познакомиться с новым шедевром, а потом обсудить его во время познавательных бесед. Также
+	по средам и пятницам в 17:00 мы показываем мультики, естественно на схожую тематику.
+	Ждем всех маленьких и больших любителей кинематографа!</p>
+<p>Наша афиша:</p>
+<div class="films">
+<p><a  href="https://www.kinopoisk.ru/film/395057/" target="_blank"><img class="more" src="https://i.pinimg.com/736x/95/42/2b/95422bcd168312924f24bc847ad29bd9--dracula-untold-luke-evans.jpg" alt="film"
+	height=250></a>
+	<a  href="https://www.kinopoisk.ru/film/1727/" target="_blank"><img class="more" src="https://sun9-62.userapi.com/impg/j4tqUnTyJ4ZoeCL-44vjvQ2HNfYR3LItYYDoUQ/TtLMuVHqBw0.jpg?size=350x500&quality=96&sign=1edfb69f3ed01ace79689927ccfa4528&type=album" alt="film"
+	height=250></a>
+	<a href="https://www.kinopoisk.ru/film/8151/" target="_blank"><img class="more" src="https://i.ebayimg.com/00/s/MTYwMFgxNTk5/z/u5AAAOSwNBlenayD/$_57.JPG?set_id=8800005007" alt="film"
+	height=250></a>
+	<a href="https://www.kinopoisk.ru/film/3491/" target="_blank"><img class="more" src="https://i.pinimg.com/736x/0b/b5/06/0bb506380df566d7026015efb3ef620d--vans-film.jpg" alt="film"
+	height=250></a>
+	<a href="https://www.kinopoisk.ru/film/565819/" target="_blank"><img class="more" src="https://www.kinogallery.com/images/Only%20Lovers%20Left%20Alive/kinogallery.com-Only%20Lovers%20Left%20Alive-526497.jpg" alt="film"
+	height=250></a></p>
+<p align="center"><a href="https://www.kinopoisk.ru/film/280174/" target="_blank"><img class="more" src="https://www.kinogallery.com/images/hotel-transylvania/kinogallery.com-hotel-transylvania-389177.jpg" alt="film"
+	height=250></a>
+	<a href="https://www.kinopoisk.ru/film/914937/" target="_blank"><img class="more" src="https://i.timeout.ru/pix/511938.jpeg" alt="film"
+	height=250></a>
+	<a href="https://www.kinopoisk.ru/film/77548/" target="_blank"><img class="more" src="https://pbs.twimg.com/media/EIY-V2cWoAQmubB.jpg:large" alt="film"
+	height=250></a></p>
+</div>	
+</div>
+
+<div class="event"> 
+<p><img class="image1" src="https://yarko.dp.ua/wp-content/uploads/2017/02/Halloween2016-26.jpg" alt="children"
+	title="Детская вечеринка" height=250 align="right">
+	<h3><i>ДЕТСКОЕ ВРЕМЯ</i></h3>
+	Вы отдыхаете всей семьей и не знаете чем занять детей? Каждый день в нашей детской 
+	комнате дежурят веселые и добрые аниматоры. Мы вместе порисуем, поиграем, полепим из
+	пластилина, поразгадываем загадки и многое другое. Не переживайте, пока вы будете заняты 
+	свои делами, ваш ребенок проведет время с пользой и несомненно останется счастлив!</p>
+</div>
+
+<div class="event">
+<a id="tab2"><h2 id="service">Услуги</h2></a>
+</div>
+
+<div class="card card2">
+  <img class="image3" src="https://get.pxhere.com/photo/car-driving-parking-transport-vehicle-park-parking-lot-public-transport-full-infrastructure-autos-race-track-multi-storey-car-park-park-level-alternate-space-parking-level-automobile-make-automotive-design-642744.jpg"  alt="cars" title="Парковка">
+  <div class="card-body">
+    <h4 class="card-title">Парковка</h4>
+    <p class="card-text">Для гостей отеля, приезжающих на личном автотранспорте.</p>
+	
+  </div>
+</div>
+
+<div class="card card2">
+  <img class="image3" src="https://s3bank.ru/wp-content/uploads/2019/05/2218_5.jpg"  alt="bankomat" title="Банкоматы">
+  <div class="card-body">
+    <h4 class="card-title">Банкоматы</h4>
+    <p class="card-text">На первом этаже Vampire's hotel для Вас работают банкоматы Сбербанка.</p>
+	
+  </div>
+</div>
+
+<div class="card card2 pl">
+  <img class="image3" src="https://www.cabinet-berton.com/wp-content/uploads/2018/10/Pourquoi-utiliser-une-consigne-à-bagages-à-Paris.jpg" alt="baggage storage" title="Камеры хранения">
+  <div class="card-body">
+    <h4 class="card-title">Камера хранения</h4>
+    <p class="card-text">Для удобного и комфортного пребывания в отеле круглосуточно работает бесплатная камера хранения.</p>
+	
+  </div>
+</div>
+
+<div class="card card2">
+  <img class="image3" src="https://phonoteka.org/uploads/posts/2021-05/1620137043_22-phonoteka_org-p-zadnii-fon-sportzal-26.jpg" alt="gym" title="Тренажерный зал">
+  <div class="card-body">
+    <h4 class="card-title">Тренажерный зал</h4>
+    <p class="card-text">На первом этаже отеля для вас работает два спортзала:
+	для кардио и силовых тренировок. Вы сможете заниматься индивидуально или проконсультироваться 
+	с опытным тренером.</p>
+	
+  </div>
+</div>
+
+
+
+<div class="card card2">
+  <img class="image3" src="https://i4.photo.2gis.com/images/branch/0/30258560049266619_0a9f.jpg" alt="laundry" title="Прачечная">
+  <div class="card-body">
+    <h4 class="card-title">Прачечная и химчистка</h4>
+    <p class="card-text">В нашей прачечной Вы всегда можете рассчитывать на профессиональную и оперативную помощь по уходу за одеждой. 
+	Услуги прачечной и химической чистки предоставляются круглосуточно.</p>
+	
+  </div>
+</div>
+
+
+
+<div id="restaurant" class="event">
+<img class="image1" src="https://www.spoon-restaurant.com/wp-content/uploads/2022/06/Spoon_cLe_Bonbon-1-1691x1080.jpg" alt="restaurant"
+	height=300 align="right" title="Ресторан">
+	<a id="tab3"><h2>Ресторан</h2></a>
+	На первом этаже этаже нашего отеля справа от входя расположился ресторан, оформленный
+	в стиле замка Дракулы. Удобно устроившись на старинных стульях или удобных кожанных креслах 
+	здесь вы можете насладиться вкусной едой и коктейлями. Вы можете продегустировать 
+	традиционную румынскую кухню 15 века, а также поробовать наши авторские блюда с 
+	необычными названиями. Ресторан работает ежедневно с 7:30 до 2:30. Кроме того, здесь
+	мы проводим особые мероприятия, например бал-маскарад.
+</div>
+
+<div class="menu2">
+<button class="button bmenu" type="button" value="Посмотреть меню"><a class="bron" href="https://radissonhotels.iceportal.com/image/radisson-royal-hotel-st-petersburg/miscellaneous/16256-114130-m23498668.pdf"
+	target="_blank">Посмотреть меню</a></button> 
+<h5 id="amenu">Авторское меню:</h5> <a href="./img.html" target="_blank"><img id="imgmenu" src="https://www.diamond-dining.com/news/wp-content/uploads/sites/4/2019/08/v-58570_r.jpg"
+alt="menu" width=70></a></div>
+
+
+<div class="event">
+<p><img class="image1" src="http://garrethstover.com/wp-content/gallery/salvatore-mansion/salvatore-library-i.jpg"
+	alt="library" height=250 align="right" title="Библиотека">
+	<a id="tab4"><h2>Библиотека</h2></a>
+	В нашем отеле также есть библиотека. Вы можете найти ее слева от входа под парадной
+	лестницей. Здесь собраны все известные и не очень произведения о вампирах и прочих
+	обитателях ночи. Вы можете перечитать любимую книгу или найти что-то новое. В укромных
+	уголках библиотеки стоят уютные кресла, чтобы вы могли в тишине насладиться чтением при свете старинного
+	торшера. Вы также можете забрать книгу в номер и вернуть в день отъезда. Библиотека 
+	открыта с 9:00 до 23:00.</p>
+
+</div>
+
+<p align="right"><a class="start" href="#head1" target="_self">К началу страницы</a></p>
+
+<hr color="black" noshade size="5">
+
+<footer>
+<p> Vampire's hotel </p>
+<p> Невский проспект, n<br> +7 (***)-***-**-**</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Vampire's hotel</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+	rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+	crossorigin="anonymous">
+	<link href="{% static 'css/pg1.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="header"> 
+<a id="head1"><img src="{% static 'images/logoza.ru.png' %}" alt="logo" height=150></a> </div>
+
+<ul class="menu">
+	<li><a class="ms active" href="../" target="_self">Главная</a></li>
+	<li><a class="ms" href="./apartments" target="_self">Номера</a></li>
+	<li><a class="ms" href="./services" target="_self">Мероприятия и услуги</a></li>
+	<li><a class="ms" href="./gallery" target="_self">Фотогалерея</a></li>
+	<li><a class="ms" href="./reviews" target="_self">Отзывы</a></li>
+	<li><a class="ms" href="./contacts" target="_self"><img src="{% static 'images/icons8-contacts.png' %}"
+	alt="contacts" height=25></a></li>
+</ul>
+
+<ul class="tabs">
+	<li><a class="ms" href="#tab8" target="_self" title="Закладка">О нас</a></li>
+	<li><a class="ms" href="#tab9" target="_self" title="Закладка">Наши преимущества</a></li>
+	<li><a class="ms" href="#tab10" target="_self" title="Закладка">Новости</a></li>
+	<li><a class="ms" href="#tab11" target="_self" title="Закладка">Специальные предложения</a></li>
+</ul>
+
+<div class="slogan"> 
+<p><img class="image1" src="https://i.ytimg.com/vi/LHSzDxmzlxQ/maxresdefault.jpg" alt="hotel"
+	alt="hotel photo" title="Фото отеля" height=300 align="right">
+	<a id="tab8"><h2>О нас</h2></a> 
+	<b><i>Vampire’s hotel - первый и единственный в России отель вампирской тематики. 
+	Уникальные интерьеры Трансильвании уже ждут вас в самом центре Санкт-Петербурга! Отель Vampire’s hotel приглашает вас в эпоху графа Дракулы. 
+Забудьте о делах и погрузитесь в роскошную жизнь вампирской аристократии.</i></b></p>
+	
+</div>
+<p>
+<button class="button" type="button" value="Забронировать номер"><a class="bron" href="./apartments#form1" target="_self">Забронировать номер</a></button>
+</p>
+
+
+<div class="adv">
+<a id="tab9"><h3><b> Наши преимущества</b></h3></a>
+<ol type="I">
+	<li>Таинственная атмосфера</li>
+		<ul type="circle">
+			<li>Интерьер в стиле фильмов о Дракуле</li>
+			<li>Приглушенное освещение</li>
+			<li>Подсвечники и летучие мыши</li>
+		</ul>
+	<li>Высокий класс обслуживания </li>
+	<li>Вежливый персонал </li>
+	<li>Румынская кухня 15 века</li>
+		<ol type="a">
+			<li>Изысканные блюда</li>
+			<li>Интригующие названия</li>
+		<ol>
+</ol>
+</div>
+
+<div class="slogan">
+	<p><img class="image1" src="https://ampir-v.ru/wp-content/themes/ampire-v/img/poster.png"
+	alt="film" title="Афиша фильма" height=300 align="right">
+	
+	<a id="tab10"><h3><b>Новости</b></h3></a>
+	В прошлое воскресенье в нашем малом холле проходила презентация нового фильма о вампирах
+	<a class="ms" href="https://www.kino-teatr.ru/kino/movie/ros/119119/annot/" target="_blank">"Ампир V"</a>. 
+	В гостях у отеля был сам режиссер Виктор Гинзбург.</p>
+	<p><img src="https://expert.ru/media/photologue/photos/381517/381573/cache/kaz_370_056_747_418_crop.jpg"
+	alt="film" title="Виктор Гинзбург" height=200 align="right"> </p>
+	<p> В центре сюжета - молодой 
+	москвич Рома Шторкин, который становится частью элитной расы вампиров – тайных правителей мира – 
+	и его жизнь переворачивается с ног на голову. Он получает имя Рама Второй, особняк в центре 
+	города и жизнь, о которой вчерашний грузчик не мог и мечтать. Но главное, он обретает недоступные 
+	людям знания и власть, с которыми ему предстоит научиться жить.</p> 
+	<p>"Ампир V" - фильм совместного производства России и Германии, является экранизацией романа Виктора Пелевина. Виктор Гинзбург подробно
+	рассказал о сюжете, работе с немецкими коллегами и приоткрыл тайны закулисья кинематографа.
+	Фильм выйдет в прокат к середине 2022 года. В главных ролях Павел Табаков, Таисия Радченко, 
+	Оксимирон и Вера Алентова.</p>
+
+</div>
+
+<div class="slogan">
+<a id="tab11"><h3><b>Специальные предложения</b></h3></a>
+
+<div class="mess">
+<p class="h">Новогодняя ночь 2022</p>
+<img src="https://d3tv8y14ogpztx.cloudfront.net/pulses/images/000/036/268/wide_product/sidebar.jpg" alt="party" title="Вечеринка" height=200> 
+<p>Встречайте Новый 2022 год в Vampire's hotel! Здесь сделают все для вашего отдыха и 
+незабываемого праздника.  Узнайте, как праздновал Новый год граф Дракула и его слуги! 
+Веселые ведущие, зажигательные танцы, тематические конкурсы и даже настоящий вампирский Дед
+Мороз - вас ждет незабываемая новогодняя ночь в нашем ресторане. Также повара подготовят
+для вас оригинальный праздничный ужин 31.12.2021г. и постпраздничный завтрак 01.01.2022г.
+При раннем бронировании до 30 ноября 2021 г. на сайте – скидка 10%.</p>
+</div>
+
+<div class="mess">
+<p class="h">Экспресс-выходные</p>
+
+<p>Хотите отдохнуть, но до отпуска еще далеко? Приезжайте к нам на одни выходные и пользуйтесь
+выгодным предложением! При бронировании номеров "Стандарт" и "Стандарт премиум" на 2 ночи
+с пятницы по воскресение - скидка 15%.</p>
+
+</div>
+
+<div  class="mess">
+<p class="h">Длительное проживание</p>
+<p>Если вы хотите задержаться у нас подольше, мы сделаем все, чтобы вы чувствовали себя
+как дома и даже лучше. Теперь «долгожителям» отеля мы предлагаем выгодные скидки:
+<ol>
+	<li>при проживании от 30 дней – скидка 10% от стоимости номера;</li> 
+	<li>при проживании от 60 дней – скидка 15% от стоимости номера;</li> 
+	<li>при проживании от 120 дней – скидка 20% от стоимости номера.  (Количество номеров ограничено)</li>
+</ol>
+В стоимость также включен завтрак ("шведский стол").</p>
+</div>
+
+<div  class="mess">
+<p class="h">Акция "Вампирская ночь для двоих"</p>
+<img src="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="lovers" title="Влюбленные" height=200>
+<p>Подарите своей второй половинке незабываемую романтическую ночь в нашем отеле. Специальный
+номер "Люкс романтик" вы можете забронировать всего за 14000 руб/сутки. Вас ждут ароматические
+свечи, лепестки роз по всему номеру, романтический ужин и много других атрибутов, которые
+создадут самую подходящую атмосферу для влюбленных. Акция проходит с 15.11 по 28.11 2021 года.</p>
+
+</div>
+</div>
+
+<p align="right"><a class="start" href="#head1" target="_self">К началу страницы</a></p>
+
+<hr color="black" noshade size="5">
+
+<footer>
+<p> Vampire's hotel </p>
+<p> Невский проспект, n<br> +7 (***)-***-**-**</p>
+</footer>
+
+</body>
+</html>

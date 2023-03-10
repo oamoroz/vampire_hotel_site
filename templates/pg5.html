@@ -1,0 +1,127 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Vampire's hotel</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+	rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+	crossorigin="anonymous">
+	<link href="{% static 'css/pg1.css' %}" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+
+<div class="header"> 
+<a id="head1"><img src="{% static 'images/logoza.ru.png' %}" alt="logo" height=150></a> </div>
+
+<ul class="menu">
+	<li><a class="ms" href="../" target="_self">Главная</a></li>
+  <li><a class="ms" href="../apartments" target="_self">Номера</a></li>
+  <li><a class="ms" href="../services" target="_self">Мероприятия и услуги</a></li>
+  <li><a class="ms" href="../gallery" target="_self">Фотогалерея</a></li>
+  <li><a class="ms active" href="../reviews" target="_self">Отзывы</a></li>
+  <li><a class="ms" href="../contacts" target="_self"><img src="{% static 'images/icons8-contacts.png' %}"
+  alt="contacts" height=25></a></li>
+</ul>
+
+<ul class="tabs">
+	<li><a class="ms" href="#tab5" target="_self" title="Закладка">Отзывы</a></li>
+	<li><a class="ms" href="#tab6" target="_self" title="Закладка">Оставить отзыв</a></li>
+</ul>
+
+<div class="event"><a id="tab5"><h3>Отзывы наших клиентов</h3></a></div>
+<table align="center" width=900 cellspacing="15" cellpadding="10" border="2" background="https://oir.mobi/uploads/posts/2020-01/1579324845_19-25.jpg">
+<tr>
+	<th width=200>Имя гостя</th>
+	<th>Отзыв</th>
+	<th width=150>Оценка по 10-бальной шкале</th>
+</tr>
+
+<tr>
+	<td valign="top">Алексей</td>
+	<td><p>Отличный отель. Отдыхали с женой 6 дней, все понравилось. Отель расположен в хорошем месте в Спб,
+	номер чистый, придраться оказалось не к чему. Цветовая гамма очень вдохновила. Кухня
+	на высоте, большие порции, интересно было попробовать <a class="bron1" href="./pg3.html#tab3" target="_self">румынские блюда</a>. Единственное, 
+	в баре маловато алкогольных напитков, хотелось бы больше разнообразия.</p>
+	<img class="img5" src="https://playboyrussia.com/upload/medialibrary/9bf/9bf137aad357e46ca0122d04ce330c77.jpg"
+	alt="room" height=150 align="left" valign="bottom" </td>
+	<td valign="top">9</td>
+</tr>
+
+<tr>
+	<td valign="top">Мария</td>
+	<td><p>Приезжали в Vampire's hotel всей семьей с 2 детьми. Разместили с комфортом
+	в 2-х комнатном номере, для детей поставили дополнительные кровати. Мелкие были
+	в восторге от старинных вещей, летучих мышей повсюду и всего этого вампирского антуража. 
+	Мы с мужем тоже остались довольны. Только если будете приезжать с детьми, учтите, 
+	что отель все же рассчитан в основном на взрослых постояльцев, развлечений для детей 
+	мало. Детское меню есть, что уже огромный плюс, так как есть оно не везде, но скудное.</td>
+	<td valign="top">8</td>
+</tr>
+
+<tr>
+	<td valign="top">Злата</td>
+	<td><p>Останавливались здесь с подругой. Обе болеем вампирской тематикой,поэтому как
+	только узнали, что у нас в России появился такой отель, решили приехать и ничуть
+	не пожалели! Атмосфера замка Дракулы передана шикарно, как-будто действительно 
+	оказался в Трансильвании в 15 веке! Брали <a class="bron1" href="./pg2.html#delux" target="_self">Делюкс комфорт</a>, просторный уютный номер
+	со всем необходимым. Сервис первоклассный, как и обещали на сайте. В общем, все очень 
+	понравилось, если будем в Питере, обязательно остановимся здесь!<p>
+	<img class="img5" src="https://sun9-9.userapi.com/jDRwZSnhN_Fw7Cn-koznVF3nYcXxMdR2rdA1QQ/KxApCZ42cVM.jpg"
+	alt="girls" height=150 align="left" valign="bottom">
+	<img class="img5" src="https://mykaleidoscope.ru/uploads/posts/2021-03/1615763194_56-p-temnii-interer-spalni-obraz-62.jpg"
+	alt="room" height=150 align="left" valign="bottom"></td>
+	<td valign="top">10</td>
+</tr>
+
+<tr>
+	<td valign="top">Chris</td>
+	<td><p>I'm from LA. It was my first visit to Saint-Petersburg. I'm a big fan of Van 
+	Helsing so I was very glad when found a vampire hotel here. Everything is facinating!
+	while I was staying here, a masquerade ball was held in a restaurant. All the guests
+	were dressed in costumes of evil spirits. Everyone discussed his favorite scary movies 
+	and books and danced old dances. I met some interesting people who like Van Helsing too. 
+	It was unforgettable to participate in this! Thanks a lot to the founders of this hotel,
+	it's like I've really been in my favorite film!</p>
+	<a href="./pg3.html#ball" target="_self"><img class="img5 more" src="https://www.discoverlosangeles.com/sites/default/files/images/2019-01/laxbw-prime-1715-hor-wide.jpg?width=1600&height=1200&fit=crop&quality=78&auto=webp"
+	alt="ball" height=150 align="left" valign="bottom"></a></td>
+	<td valign="top">10</td>
+</tr>
+
+<tr>
+	<td valign="top">Евгения</td>
+	<td>Приезжали в Питер с парнем, как любители ужастиков решили остановиться в этом
+	отеле. Сняли номер <a class="bron1" href="../apartments#romantic" target="_self">Люкс романтик</a>. Он свое название оправдал, интерьер действительно
+	был романтичным: разноцветные свечи, засушенные розы в вазах... и два черепа, мило 
+	стоящих на прикроватном столике) Персонал очень вежливый, всегда готовы помочь. У 
+	нас кондиционер в 11 вечера сломался, пришли и до 12 все починили. Блюда тоже на 
+	высоте. Некоторые пункты <a class="bron1" href="../services#amenu" target="_self">авторского меню</a> специфические и имеют любопытные названия!
+	Десерт "Франкенштейн" не рекомендую, а вот коктейль "Вампирская любовь" попробуйте
+	обязательно!
+	</td>
+	<td valign="top">9</td>
+</tr>
+
+</table> 
+
+<a id="tab6"><h5>Хотите поделиться своим мнением о Vampire's hotel?</h5></a>
+
+<form action="." method="POST">{% csrf_token %}
+	{{form.as_p}}
+	<input class="button5" type="submit" value="Оставить отзыв">	
+</form>
+
+<p align="right"><a class="start" href="#head1" target="_self">К началу страницы</a></p>
+
+<hr color="black" noshade size="5">
+
+<footer>
+<p> Vampire's hotel </p>
+<p> Невский проспект, n<br> +7 (***)-***-**-**</p>
+</footer>
+
+</body>
+</html>
